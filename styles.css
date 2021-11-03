@@ -1,0 +1,931 @@
+/* GENERAL for all pages */
+.heading {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 1;
+  top: 0px;
+}
+
+.logo img {
+  position: fixed;
+  width: 10%;
+  top: 10px;
+  left: 20px;
+}
+
+.topnavi {
+  position: fixed;
+  text-decoration: none;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #870000;
+  top: 30px;
+  right: 50px;
+}
+
+#menu {
+  color: #870000;
+  margin: 10px;
+}
+
+#order {
+  color: #870000;
+  margin: 10px;
+}
+
+#contact {
+  color: #870000;
+  margin: 10px;
+}
+
+#about {
+  color: #870000;
+  margin: 10px;
+}
+
+#cart {
+  color: #870000;
+  margin: 10px;
+}
+
+#cart img {
+  position: absolute;
+  top: 1px;
+  left: 610px;
+}
+
+#menu:hover, #order:hover, #cart:hover {
+  color: #422308;
+  border-bottom: 3px solid #422308;
+}
+ 
+/* HOME page */
+.container {
+  position: relative;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 100%;
+  top: 100px;
+  color: #422308;
+}
+  
+.container img {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.container .copy1 {
+  position: absolute;
+  font-size: 45px;
+  width: 800px;
+  top: 180px;
+  left: 310px;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+}
+
+.container .copy2 {
+  position: absolute;
+  font-size: 25px;
+  width: 650px;
+  top: 300px;
+  left: 380px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.container .btn1 {
+  position: absolute;
+  top: 450px;
+  left: 540px;
+  width: 250px;
+  background-color: #870000;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+  
+.container .btn2 {
+  position: absolute;
+  top: 520px;
+  left: 540px;
+  width: 250px;
+  background-color: #870000;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* ORDER ONLINE page */
+.order {
+  position: relative;
+  top: 80px;
+  left: 180px;
+  color: #422308;
+}
+
+.order h1 {
+  position: absolute;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  top: 20px;
+}
+
+.order h2 {
+  position: absolute;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #870000;
+  top: 90px;
+}
+
+.order-container1 {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 160px;
+  color: black;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+}
+
+.order h3 {
+  position: absolute;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 17px;
+  top: 50px;
+  left: 30px;
+}
+
+.order h4 {
+  position: absolute;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  top: 75px;
+  left: 30px;
+}
+
+.order img {
+  position: absolute;
+  right: 0px;
+}
+  
+.order-container2  {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 370px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+}
+
+.order-container3  {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 580px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+} 
+
+.order-container4  {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 160px;
+  left: 600px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+} 
+
+.order-container5  {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 370px;
+  left: 600px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+} 
+
+.order-container6  {
+  position: absolute;
+  width: 380px;
+  height: 183px;
+  top: 580px;
+  left: 600px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-width: 1px;
+} 
+
+/* PRODUCT DETAIL Page */
+#cartNumUpdate {
+  position: absolute;
+  right: -10px;
+  top: -30px;
+  font-size: 20px;
+}
+
+.items {
+  position: relative;
+}
+
+.items img {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 550px;
+  height: 500px;
+}
+
+.item-container {
+  position: absolute;
+  top: 160px;
+  left: 770px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #424242;
+}
+
+/* Flavor */
+.item-container h1 {
+  position: absolute;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #870000;
+}
+
+/* Flavor introduction */
+.item-container h2 {
+  position: absolute;
+  top: 85px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  width: 500px;
+}
+
+/* Glazing */
+.item-container h3 {
+  position: absolute;
+  top: 130px;
+  font-size: 26px;
+  font-weight: bolder;
+  width: 200px;
+}
+
+/* Glazing price */
+.item-container h4 {
+  position: absolute;
+  top: 135px;
+  left: 200px;
+  font-size: 20px;
+  width: 300px;
+}
+
+/* Roll price */
+.item-container h5 {
+  position: absolute;
+  top: 10px;
+  left: 430px;
+  font-size: 20px;
+  width: 300px;
+}
+
+/* Sold in sets of */
+.item-container h6 {
+  position: absolute;
+  top: 340px;
+  left: 2px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+  width: 300px;
+}
+
+.item-container p {
+  position: absolute;
+  top: 180px;
+  width: 500px;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+/* A dropdown for choosing quantity */
+.item-container #quantity {
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+  color: #424242;
+  border-color: rgba(66, 66, 66, 0.34);
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 16px;
+}
+
+.listItems {
+  position: absolute;
+  top: 430px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+
+/* Add to cart button */
+.item-container .btn3 {
+  position: absolute;
+  top: 550px;
+  left: 300px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #870000;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.back img {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  width: 45px;
+  height: auto;
+}
+
+
+
+#listOfQuant {
+  list-style-type: none;
+}
+
+/* MENU Page */
+.heading-menu #menu {
+  border-bottom: 3px solid #870000;
+}
+
+.heading-order #order {
+  border-bottom: 3px solid #870000;
+}
+
+.menu h1 {
+  position: absolute;
+  color: #422308;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  top: 110px;
+  left: 190px;
+}
+
+.menu img {
+  position: absolute;
+  width: 60%;
+  top: 300px;
+  left: 320px;
+}
+
+.menu body {
+  padding-bottom: 50px;
+}
+
+.view-pdf-btn {
+  position: absolute;
+  top: 210px;
+  left: 190px;
+  background-color: white;
+  border: 3px solid #870000;
+  box-sizing: border-box;
+  border-radius: 47px;
+  color: #870000;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  padding: 9px 10px;
+  width: 179px;
+  
+}
+
+.view-pdf-btn:hover {
+  color: #422308;
+  border-color: #422308;
+}
+
+.call-to-action {
+  position: absolute;
+  top: 1400px;
+  left: 350px;
+  padding-bottom: 400px;
+}
+
+.order-text {
+  position: absolute;
+  top: 200px;
+  left: 110px;
+  font-family: "Open Sans SemiCondensed", Arial, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 72px;
+  width: 420px;
+  color: #424242;
+}
+
+.visit-text {
+  position: absolute;
+  top: 200px;
+  left: 530px;
+  font-family: "Open Sans SemiCondensed", Arial, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 72px;
+  width: 420px;
+  color: #424242;
+}
+
+.btn4 {
+  position: absolute;
+  top: 300px;
+  left: 135px;
+  background-color: #870000;
+  box-sizing: border-box;
+  border-radius: 47px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 9px 10px;
+  width: 200px;
+}
+
+.btn5 {
+  position: absolute;
+  top: 300px;
+  left: 560px;
+  background-color: #870000;
+  box-sizing: border-box;
+  border-radius: 47px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 9px 10px;
+  width: 200px;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover {
+  background-color: #422308;
+}
+
+/* Checkout Page */
+.heading-cart #cart {
+  border-bottom: 3px solid #870000;
+  border-bottom-right-radius: 10px;
+}
+
+.cart-heading h1 {
+  position: absolute;
+  top: 110px;
+  left: 190px;
+  color: #422308;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.cart-heading h2{
+  position: absolute;
+  width: 155px;
+  height: 57px;
+  top: 170px;
+  left: 190px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 54px;
+  color: #870000;
+}
+
+.cart {
+  position: relative;
+  width: 900px;
+  height: 360px;
+  top: 260px;
+  left: 220px;
+  background-color: #F8F8F8;
+  padding: 20px 20px;
+}
+
+.cart-item-container1 {
+  position: absolute;
+  width: 900px;
+  height: 84px;
+  top: 0px;
+}
+
+.cart-item-container1 h3, .cart-item-container2 h3, .cart-item-container3 h3 {
+  position: absolute;
+  width: 272px;
+  height: 84px;
+  left: 150px;
+  top: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.cart-item-container1 h4, .cart-item-container2 h4, .cart-item-container3 h4 {
+  position: absolute;
+  width: 272px;
+  height: 84px;
+  top: 45px;
+  left: 150px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.cart-item-container1 h5, .cart-item-container2 h5, .cart-item-container3 h5 {
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  left: 776px;
+  top: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.cart-item-container1 h6, .cart-item-container2 h6, .cart-item-container3 h6 {
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  left: 870px;
+  top: 3px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 44px;
+  color: #000000;
+}
+
+
+.cart-item-container2 {
+  position: absolute;
+  top: 100px;
+  width: 900px;
+  height: 84px;
+}
+
+
+.cart-item-container3 {
+  position: absolute;
+  top: 200px;
+  width: 900px;
+  height: 84px;
+}
+
+/* Dropdown for quantity */
+#quantity1, #quantity2, #quantity3 {
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  padding: 5px;
+  padding-left: 16px;
+}
+
+.add-more {
+  position: absolute;
+  top: 330px;
+  left: 70px;
+  background-color: #F8F8F8;
+  border: 3px solid #870000;
+  box-sizing: border-box;
+  border-radius: 47px;
+  color: #870000;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 15px;
+  padding: 9px 10px;
+  width: 150px;
+}
+
+/* Total Price */
+.cart p {
+  position: absolute;
+  top: 390px;
+  left: 620px;
+  position: absolute;
+  width: 421px;
+  height: 65px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 49px;
+  text-align: center;
+  color: #424242;
+}
+
+.select-option {
+  position: absolute;
+  top: 680px;
+  left: 190px;
+}
+
+.select-option h2 {
+  position: absolute;
+  width: 300px;
+  height: 57px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 54px;
+  color: #870000;
+}
+
+/* Pickup option */
+.pickup {
+  position: absolute;
+  width: 326px;
+  height: 46px;
+  top: 80px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 41px;
+  color: #424242;
+}
+
+.pickup h4 {
+  position: absolute;
+  width: 309px;
+  height: 36px;
+  top: 12px;
+  left: 27px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 41px;
+  color: #424242;
+}
+
+#list-times {
+  position: absolute;
+  width: 213px;
+  height: 35px;
+  left: 27px;
+  top: 75px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding-left: 12px;
+
+}
+
+/* Delivery option */
+.delivery {
+  position: absolute;
+  width: 326px;
+  height: 46px;
+  top: 210px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 41px;
+  color: #424242;
+}
+
+.delivery h4 {
+  position: absolute;
+  width: 309px;
+  height: 36px;
+  top: 12px;
+  left: 27px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 41px;
+  color: #424242;
+}
+
+.input-container {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  top: 70px;
+  left: 27px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 34px;
+  color: #424242;
+}
+
+/* User info input field */
+#fname, #lname, #phone, #address1, #address2, #city, #state, #zipcode, #instructions {
+  position: relative;
+  width: 423px;
+  height: 36px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 34px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #424242;
+  border: 2px solid #C4C4C4;
+  border-radius: 10px;
+}
+
+/* Delivery Instruction */
+#instructions {
+  height: 100px;
+}
+
+.instructions-heading {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  top: 650px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 41px;
+  color: #424242;
+}
+
+
+.input-container h5 {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  top: 790px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 41px;
+  color: #424242;
+}
+
+.input-container h6 {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  top: 810px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 34px;
+  color: #424242;
+}
+
+/* Payment info */
+.payment {
+  position: absolute;
+  top: 1850px;
+  left: 190px;
+  width: 300px;
+  height: 57px;
+  padding-bottom: 500px;
+}
+
+.payment h2 {
+  position: absolute;
+  width: 300px;
+  height: 57px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 54px;
+  color: #870000;
+}
+
+.payment h4 {
+  position: absolute;
+  width: 300px;
+  height: 36px;
+  top: 50px;
+  font-family: 'Open Sans SemiCondensed', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 41px;
+  color: #424242;
+}
+
+.pay-input-container {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  top: 110px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 34px;
+  color: #424242;
+}
+
+#cardnum, #expdate, #nameoncard {
+  position: relative;
+  width: 423px;
+  height: 36px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 34px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #424242;
+  border: 2px solid #C4C4C4;
+  border-radius: 10px;
+}
+
+.place-order-btn {
+  position: absolute;
+  top: 400px;
+  width: 220px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #870000;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
