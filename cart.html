@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- javascript -->
-    <script src="main.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript" defer></script>
 
   </head>
 
-  <body onload="onLoad()">
+  <body>
     <div class="heading-cart">
       <!-- Logo -->
       <div class="logo">
@@ -47,9 +47,13 @@
       <h2>ITEMS</h2>
     </div>
 
-    <div class="cart">
-      <button class="add-more">+ Add More</button>
-      <p>Total: $44.00</p>
+    <div class="cart" id="cartfeed">
+      </div>
+
+    <div class="actionButtons">
+      <button class="add-more"> <a href="order.html">+ Add More</a></button>
+      <button class="clear-all" onclick="clearFeed();">- Remove All</button>
+      <!--<p id = "allTotal">Total: $44.00</p>-->
     </div>
 
     <div class="select-option">
@@ -110,7 +114,6 @@
 
       </div>
     </div>
-
 
 
     <div class="payment">
